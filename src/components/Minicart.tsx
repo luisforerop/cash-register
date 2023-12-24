@@ -1,5 +1,5 @@
+import { Price, Product } from '.'
 import { useMinicartContext } from '../providers'
-import { Product } from '.'
 
 export const Minicart = () => {
   const { products, total } = useMinicartContext()
@@ -15,7 +15,7 @@ export const Minicart = () => {
         <button>Pagar</button>
         <div className="flex gap-5">
           <span>TOTAL</span>
-          <span>{total}</span>
+          <Price price={total} />
         </div>
       </div>
     </section>

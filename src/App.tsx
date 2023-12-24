@@ -24,7 +24,7 @@ function App() {
 
   if (!render) return <div>Gira la pantalla</div>
 
-  if (showStart) return <GoToFullScreen />
+  if (showStart && false) return <GoToFullScreen />
 
   return (
     <MinicartProvider>

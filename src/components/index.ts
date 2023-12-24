@@ -1,4 +1,5 @@
 export * from './AllowedProducts'
 export * from './Minicart'
+export * from './Price'
 export * from './Product'
 export * from './ProductCard'
